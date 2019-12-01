@@ -1,0 +1,20 @@
+
+/* Here we are styling the body */
+
+body {
+    background: red;
+    width: 800px;
+    margin: auto;
+   }
+   /* The code below is for stilying the first heading */
+   h1 {
+    color: maroon;
+    text-align: center;
+   }
+   p {
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+   }
+
+   
