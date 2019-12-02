@@ -5,6 +5,11 @@
 a viewport smaller than 855 px, the remainder part of the page will be hidden from view */
 header, main, footer { min-width: 855px;}
 
+header .container, main  .container, footer  .container {
+    max-width: 855px;
+    margin: auto;
+}
+
 body {
     background: #f9e933;
     width: 800px;
@@ -12,14 +17,17 @@ body {
    }
    header {
        background: white;
+       overflow: auto;
    }
    main {
        background: white;
    }
    /* The code below is for stilying the first heading */
-   h1 {
+   header h1 {
     color: maroon;
+    float: left;
     text-align: center;
+    width: 570px;
    }
    p {t
     color: gray;
@@ -27,6 +35,10 @@ body {
     padding: 1px;
    }
 
+   header nav {
+       float: right;
+       width: 285px;
+   }
    div{
        border: 5px solid maroon:
        text-align: center;
