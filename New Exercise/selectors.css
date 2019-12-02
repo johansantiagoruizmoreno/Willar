@@ -1,10 +1,18 @@
+
+/*CSS Lint a tool to help us identify potential problems*/
 h1 {
     background: black;
     color: white;
     width: 800px;
     float: right;
+    margin: 20px;
     font-family: "Denk One", sans-serif ;
-   }
+    /* You can set the font on the ehader to be one hundread percent and then
+    use relative sizes with the other ones
+    Usefull for changing all the size of the text at once */
+    font-size: 100%;
+    /* A page may look differently according to which browser is used to open it*/
+}
    p.first {
     color: red;
     margin: 10px;
