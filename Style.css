@@ -12,12 +12,13 @@ header .container, main  .container, footer  .container {
 
 body {
     background: #f9e933;
-    width: 800px;
+    width: 855px;
     margin: auto;
    }
    header {
        background: white;
        overflow: auto;
+       font-family: "Ubuntu", sans-serif;
    }
    main {
        background: white;
@@ -28,6 +29,18 @@ body {
     float: left;
     text-align: center;
     width: 570px;
+    font-family: "Ubuntu", sans-serif;
+   }
+    header h2 {
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    header h3 {
+        font-family: "Ubuntu", sans-serif;
+    }
+    header h4 {
+        font-family: "Ubuntu", sans-serif;
+    }
    }
    p {t
     color: gray;
