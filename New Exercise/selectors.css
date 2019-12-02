@@ -2,9 +2,18 @@ h1 {
     background: black;
     color: white;
    }
-   p {
+   p.first {
     color: red;
     margin: 10px;
     padding: 20px;
    }
+
+   p.second{
+       color: cadetblue;
+       margin: 40px;
+       padding: 10px;
+
+
+   }
+
    
