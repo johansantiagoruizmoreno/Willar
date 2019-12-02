@@ -1,0 +1,12 @@
+
+body{
+    background: rgb(24, 170, 170);
+    width: 50px;
+    margin: 2px auto;
+}
+
+div{
+    border: 40px solid black;
+    text-align: left;
+    padding: 5px;
+}
