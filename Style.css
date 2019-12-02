@@ -57,5 +57,8 @@ body {
        text-align: center;
        padding: 5px;
    }
+   ul {
+    float: right;
+   }
 
    
