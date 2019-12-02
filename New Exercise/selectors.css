@@ -1,8 +1,9 @@
 h1 {
     background: black;
     color: white;
-    width: 400px;
-    float: left;
+    width: 800px;
+    float: right;
+    font-family: "Denk One", sans-serif ;
    }
    p.first {
     color: red;
